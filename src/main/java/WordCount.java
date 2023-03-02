@@ -12,6 +12,8 @@ public class WordCount{
 
     public static void main(String[] args) throws Exception {
 
+
+        System.out.println("Hello");
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         env.socketTextStream("localhost",9999)
